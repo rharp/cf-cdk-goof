@@ -19,4 +19,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          command: iac test ./cdk.out/
+          command: iac test ./cdk/*.json
